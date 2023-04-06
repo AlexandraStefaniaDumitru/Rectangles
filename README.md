@@ -1,8 +1,8 @@
 # Rectangles
 
 This is a Java program that counts the number of rectangles parallel with the X, Y axes that can be formed using a set of coordinates provided by the user. 
-The program reads from the console the coordinates as pairs of (x, y) separated by space and prints the found number of rectangles, with time complexity on O(n^2).
-The algorithm is based on the idea that knowing the ends if one diagonal of a rectangle, P1(x1, y1) and P2(x2, y2), we can easily determine the ends of the other 
+The program reads from the console the coordinates as pairs of (x, y) separated by space and prints the found number of rectangles, with time complexity of O(n^2).
+The algorithm is based on the idea that knowing the ends if one diagonal of a rectangle, P1(x1, y1) and P2(x2, y1), we can easily determine the ends of the other 
 diagonal as being P3(x1, y2), P4(x2, y2), supposing that x1 is not equal to x2 and y1 is not equal to y2 (the ends of the rectangle's diagonal can not be on the same axix).
 
 - Sample Input: (1, 1) (1, 3) (2, 1) (2, 3) (3, 1) (3, 3)  
